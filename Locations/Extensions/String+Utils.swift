@@ -18,7 +18,7 @@ extension String {
             let regex = try NSRegularExpression(pattern: regex, options: [])
             let results = regex.matches(in: self, options: [], range: NSRange(location: 0, length: self.count))
             return results.map { String(self[Range($0.range, in: self)!])}
-        } catch let error as NSError {
+        } catch {
             return []
         }
     }
