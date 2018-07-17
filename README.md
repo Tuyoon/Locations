@@ -8,21 +8,22 @@ User is traveling around Sydney with a goal to take photos of all scenic locatio
 Probably app allows to add photos, share locations and build a routes
 
 ## Install
-1. Install cocoapods
-```
+1. *Be sure that you have latest cocoapods version installed*  
+If you are not sure please run:
+```bash
 $ sudo gem install cocoapods
 ```
 2. Open Terminal and navigate to the project folder
-```
+```bash
 $ cd.. <path to project folder>
 ```
 3. Install the dependencies
-```
+```bash
+$ pod repo update
 $ pod install
 ```
 4. Open workspace
-```
+```bash
 $ open Locations.xcworkspace
 ```
 5. Run
-
