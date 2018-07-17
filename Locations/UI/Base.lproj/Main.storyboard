@@ -21,6 +21,11 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="76Z-J8-bn1">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="hN6-Zc-JCM">
+                                    <rect key="frame" x="0.0" y="72" width="375" height="0.0"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LocationCell" id="SkN-ye-JQz" customClass="LocationTableViewCell" customModule="Locations" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -430,7 +435,7 @@
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="aOO-sT-tMd" firstAttribute="leading" secondItem="dQj-ng-YHO" secondAttribute="leading" constant="16" id="55w-Ae-5bz"/>
-                                    <constraint firstAttribute="bottom" secondItem="aOO-sT-tMd" secondAttribute="bottom" constant="8" id="5Mb-A0-fuH"/>
+                                    <constraint firstAttribute="bottom" secondItem="aOO-sT-tMd" secondAttribute="bottom" priority="999" constant="8" id="5Mb-A0-fuH"/>
                                     <constraint firstAttribute="trailing" secondItem="aOO-sT-tMd" secondAttribute="trailing" constant="16" id="Ve7-HF-ueG"/>
                                     <constraint firstItem="aOO-sT-tMd" firstAttribute="top" secondItem="dQj-ng-YHO" secondAttribute="top" constant="8" id="oAx-W3-KEI"/>
                                 </constraints>
